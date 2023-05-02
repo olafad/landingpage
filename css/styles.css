@@ -11,13 +11,26 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
     color: #8f8f8f;
+    font-size: 1rem;
 }
+
+em {
+    font-size: 1.6rem;
+}
+
 
 /* Headings */
 .big-heading {
     font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     line-height: 1.5;
+}
+
+.sub-title {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-weight: 100;
+    font-family: 'Montserrat-Thin', sans-serif;
 }
 
 /* Containers */
@@ -28,7 +41,7 @@ p {
 
 /* Sections */
 .colored-section {
-    background-color: #c071d8;
+    background-color: #861657;
     color: #fff;
 }
 
@@ -43,7 +56,7 @@ p {
 
 .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 2.0rem;
+    font-size: 1.8rem;
     font-weight: bold;
 }
 
@@ -61,7 +74,8 @@ p {
 /* Title Section */
 
 #title .title-container {
-    background-color: #821c87;
+    /* background-color: #660f56; */
+    background-image: linear-gradient(to right, #a40160 , #520230);
     padding: 3% 15% 7%;
     text-align: left;
 }
@@ -79,14 +93,17 @@ p {
 
 /* Title Image */
 .title-image {
-    width: 20%;
-    transform: rotate(25deg);
+    width: 30%;
+    transform: rotate(0deg);
     position: absolute;
-    right: 25%;
+    right: 15%;
 }
 
-
-
+.first-image {
+    width: 100%;
+    position: relative;
+    border-radius: 80%;
+}
 
 
 
@@ -97,7 +114,7 @@ p {
 }
 
 .feature-title {
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     font-weight: bold;
 }
 
@@ -106,12 +123,12 @@ p {
 }
 
 .icon {
-    color: #c071d8;
+    color: #a40160;
     margin-bottom: 1rem;
 }
 
 .icon:hover {
-    color: #821c87;
+    color: #83024b;
 }
 
 
@@ -122,7 +139,7 @@ p {
 }
 
 .testimonial-text {
-    font-size: 3.5rem;
+    font-size: 2.0rem;
     line-height: 1.5;
 }
 
@@ -149,6 +166,8 @@ p {
     margin: 20px 20px 50px;
 }
 
+
+
 /* Pricing Section*/
 
 #pricing {
@@ -159,7 +178,14 @@ p {
     padding: 3% 2%;
 }
 
+
+
 /* Call to Action */
+
+.cta-text {
+    font-size: 1.5rem;
+    color: #fff;
+}
 
 
 
@@ -179,6 +205,6 @@ p {
     .title-image {
         position: static;
         transform: rotate(0);
-        width: 50%;
+        width: 80%;
     }
 }
