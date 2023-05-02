@@ -203,20 +203,80 @@ em {
 
 
 @media (max-width: 1028px) {
-    #title {
-        text-align: center;
-        font-size: 5rem;
+
+    p {
+        font-size: 2rem;
+    }
+    
+
+    em {
+        font-size: 2.6rem;
+    }
+    
+    
+    /* Headings */
+    .big-heading {
+        font-size: 3.8rem;
+    }
+    
+    .sub-title {
+        font-size: 2.3rem;
+    }
+  
+    
+    /* Navigation bar */
+    .navbar {
+        padding: 0 0 5.5rem;
+    }
+    
+    .navbar-brand {
+        font-size: 2.8rem;
     }
 
-    body {
-        font-family: 'Montserrat' sans-serif;
-        text-align: center;
-        font-size: 2rem
+    .nav-link {
+        font-size: 2.2rem;
+    }
+    
+    
+    
+    /* Title Section */
+    
+   
+    .section-heading {
+        font-size: 4.5rem;
+    }
+    
+   
+    /* Features Section */
+    
+    .feature-title {
+        font-size: 3.0rem;
+        font-weight: bold;
     }
 
-    .title-image {
-        position: static;
-        transform: rotate(0);
-        width: 60%;
+    
+    /* Testimonial Section */
+
+    
+    .testimonial-text {
+        font-size: 3.0rem;
     }
+
+    /* Press Section */
+
+    .price-text {
+        font-size: 4rem;
+    }
+
+    
+    /* Call to Action */
+    
+    .cta-text {
+        font-size: 2.5rem;
+    }
+    
+    .sign-form {
+        font-size: 2.5rem
+    }
+   
 }
