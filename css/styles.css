@@ -114,12 +114,12 @@ em {
 }
 
 .feature-title {
-    font-size: 2.0rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 .feature-box {
-    padding: 5%;
+    padding: 1%;
 }
 
 .icon {
@@ -162,8 +162,8 @@ em {
 }
 
 .press-logo {
-    width: 15%;
-    margin: 20px 20px 50px;
+    width: 80%;
+    margin: 5px 5px 5px;
 }
 
 
@@ -188,8 +188,12 @@ em {
 }
 
 .sign-form {
-    padding: 0 35% 5% 35%;
-    font-size: 1.5rem
+    padding: 0 40% 5% 40%;
+    font-size: 1.0rem
+}
+
+.sign-up {
+    padding: 3% 10% 0 10%;
 }
 
 
