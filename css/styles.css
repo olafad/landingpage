@@ -22,20 +22,22 @@ em {
 /* Headings */
 .big-heading {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     line-height: 1.5;
+    padding: 15% 0% 5% 0%;
 }
 
 .sub-title {
-    font-size: 1.3rem;
+    font-size: 1rem;
     line-height: 1.5;
     font-weight: 100;
     font-family: 'Montserrat-Thin', sans-serif;
+    padding: 0% 0% 5% 0%;
 }
 
 /* Containers */
 .title-container {
-    padding: 7% 15%;
+    padding: 7% 7%;
 }
 
 
@@ -56,7 +58,7 @@ em {
 
 .navbar-brand {
     font-family: 'Ubuntu', sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -65,7 +67,7 @@ em {
 }
 
 .nav-link {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -76,12 +78,12 @@ em {
 #title .title-container {
     /* background-color: #660f56; */
     background-image: linear-gradient(to right, #a40160 , #520230);
-    padding: 3% 15% 7%;
+    padding: 3% 7% 7%;
     text-align: left;
 }
 
 .section-heading {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     line-height: 1.5;
 }
 
@@ -139,8 +141,9 @@ em {
 }
 
 .testimonial-text {
-    font-size: 2.0rem;
+    font-size: 1.3rem;
     line-height: 1.5;
+    font-weight: normal;
 }
 
 .testimonial-image {
@@ -156,13 +159,8 @@ em {
     padding-bottom: 3%;
 }
 
-.price-text {
-    font-size: 3rem;
-    line-height: 1.5;
-}
-
 .press-logo {
-    width: 80%;
+    width: 50%;
     margin: 5px 5px 5px;
 }
 
@@ -171,11 +169,15 @@ em {
 /* Pricing Section*/
 
 #pricing {
-    padding: 100px;
+    padding: 10px 0px 30px 0px;
 }
 
 .pricing-column {
-    padding: 3% 2%;
+    padding: 0% 2%;
+}
+
+.price-text {
+    font-size: 1.6rem;  
 }
 
 
@@ -187,58 +189,72 @@ em {
     color: #fff;
 }
 
+.cta-container {
+    padding: 0% 5% 0% 5%;
+}
+
+.cta-heading {
+    padding: 0% 5% 5% 5%;
+    font-size: 2.0rem;
+}
+
 .sign-form {
     padding: 0 40% 5% 40%;
     font-size: 1.0rem
 }
 
 .sign-up {
-    padding: 3% 10% 0 10%;
+    padding: 0% 10% 0 10%;
 }
 
 
 
 /* Footer Section */
 
-.social-icon {
-    margin: 20px 10px;
+.footer-container {
+    padding: 2% 2%;
 }
+
+.social-icon {
+    margin: 0px 2px;
+}
+
 
 
 
 @media (max-width: 1028px) {
 
     p {
-        font-size: 2rem;
+        font-size: 1rem;
     }
     
 
     em {
-        font-size: 2.6rem;
+        font-size: 1rem;
     }
     
     
     /* Headings */
     .big-heading {
-        font-size: 3.8rem;
+        font-size: 2rem;
     }
     
     .sub-title {
-        font-size: 2.3rem;
+        font-size: 1rem;
     }
   
     
     /* Navigation bar */
     .navbar {
-        padding: 0 0 5.5rem;
+        padding: 0 0 2.5rem;
     }
     
     .navbar-brand {
-        font-size: 2.8rem;
+        font-size: 1rem;
     }
 
     .nav-link {
-        font-size: 2.2rem;
+        font-size: 1rem;
     }
     
     
@@ -247,14 +263,17 @@ em {
     
    
     .section-heading {
-        font-size: 4.5rem;
+        font-size: 2rem;
     }
     
+    .title-image {
+        width: 10%;
+    }
    
     /* Features Section */
     
     .feature-title {
-        font-size: 3.0rem;
+        font-size: 1.5rem;
         font-weight: bold;
     }
 
@@ -263,24 +282,23 @@ em {
 
     
     .testimonial-text {
-        font-size: 3.0rem;
+        font-size: 1.0rem;
     }
 
-    /* Press Section */
+    /* Pricing Section */
 
-    .price-text {
-        font-size: 4rem;
+    .card {
+        padding: 20%;
     }
-
     
     /* Call to Action */
     
     .cta-text {
-        font-size: 2.5rem;
+        font-size: 1.2rem;
     }
     
     .sign-form {
-        font-size: 2.5rem
+        font-size: 1.2rem
     }
    
 }
